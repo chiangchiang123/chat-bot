@@ -1,0 +1,401 @@
+{
+        "intents_list": [
+          {
+            
+            "tag": "greeting",
+            "patterns": [
+              "Good morning !",
+              "Hi ~",
+              "Is anyone there ?",
+              "Hello",
+              "Hey"
+            ],
+            "responses": [
+              "Hi there. Welcome to Cafe Mei. How can I help ?",
+              "Morning!  :-) Welcome to Cafe Mei",
+              "Hello, thanks for visiting Cafe Mei",
+              "Hi there, how can I help?",
+              "Morning!"
+            ]
+          },
+          {
+            "tag": "pay",
+            "patterns": [
+              "May I have the bill, please ?", 
+              "Could I get the bill ?",
+              "Check , please .",
+              "Could I get the check, please ?"
+            ],
+            "responses": [
+              "Ok ! Here is your bill.",
+              "Busy right now . Please wait a second .",
+              "Ok, let me get your bill .",
+              "Please checkout here",
+              "OK, no problem"
+            ]
+          },
+          {
+            "tag": "pay_method",
+            "patterns": [
+              "What payment methods do you accept ?",
+              "Do you take credit cards ?",
+              "Do you accept Line Pay ?",
+              "Which checkout method is accepted ?"],
+            "responses": [
+              "Paying in cash, please.",
+              "We only accept cash ~",
+              "My pleasure"]
+          },
+          {
+            "tag":"find_the_restroom",
+            "patterns": [
+              "May I borrow the restroom ?",
+              "Where's the toilet ?",
+              "My son is going to throw up ! Help !",
+              "I feel uncomfortable. Where's the restroom ?",
+              "I need to use the restroom."
+            ],
+            "responses": [
+              "The toilet is behind the door.",
+              "Please wait! Somebody is still using the bathroom",
+              "Sorry ! Our toilet is broken.",
+              "The toilet is over there.",
+              "Please line up here and wait."
+            ]
+          },
+          {
+            "tag": "menu_recommadation",
+            "patterns": [
+              "Can you recommend some meals to me ?",
+              "Do you have a special meal today ?",
+              "Can you give me some suggestions ?",
+              "Are there any recommendations ?",
+              "recommended menu",
+              "What do you recommend ?"
+            ],
+            "responses": [
+              "As for me , I will recommend quiches.",
+              "Ham sandwiches with Milk tea are on sale today. "
+            ]
+          },
+          {
+            "tag": "drinks_recommandation",
+            "patterns": [
+              "I don't know what to drink .",
+              "Any recommended drink ?",
+              "I would like to have a drink."
+            ],
+            "responses": [
+              "I would recommed black tea.",
+              "Milk tea is very popular",
+              "Let the coffee starts your day."
+            ]
+          },
+          {
+            "tag": "want_menu",
+            "patterns": [
+              "Show me your menu",
+              "What meals do you have?",
+              "Is there a menu ?",
+              "menu"
+            ],
+            "responses": [
+              "Here's our menu: https://reurl.cc/2ZQVmX"
+            ]
+          },
+          {
+            "tag": "scold",
+            "patterns": [
+              "How dare you ?",
+              "What wrong with you ?",
+              "Excuse me, I want to make a complain ?",
+              "Do you want to pick a fight ?",
+              "You are dead meat .",
+              "Get out of my face ."
+            ],
+            "responses": [
+              "I'm sorry for your inconvenience",
+              "I sincerely apologize .",
+              "I regret any inconvenience caused by my action",
+              "We apologize. Would you please fill out this suggestion card for us ?",
+              "I didn't mean to hurt your feelings ."
+            ]
+          },
+          {
+            "tag": "order",
+            "patterns": [
+              "I want milk tea",
+              "I want a cup of warm black tea .",
+              "Orange juice , please",
+              "A cup of coffee , thanks .",
+              "I want",
+              "Hey waiter ~"
+            ],
+            "responses": [
+              "OK, Please wait for a minute.",
+              "Ok, do you want anything else ?",
+              "Please wait a second ~"
+            ]
+          },
+          {
+            "tag": "help",
+            "patterns": [
+              "I didn't bring enough money .",
+              "I need some help .", 
+              "Get help ."
+            ],
+            "responses": [
+              "Call 0912345678 for getting help!"
+            ]
+          },
+          {
+            "tag": "waiting_time",
+            "patterns": [
+              "How long would my order take ?",
+              "How long would I have to wait ?",
+              "How much time would it take ?",
+              "When will my order be ready ?"
+            ],
+            "responses": [
+              "It would take approximately 5 minutes",
+              "It'll be ready in five to ten minutes",
+              "It will be ready soon"
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Thank's a lot!"
+            ],
+            "responses": [
+              "Happy to help !",
+              "My pleasure !"
+            ]
+          },
+          {
+            "tag": "bye",
+            "patterns": [
+              "Bye ~",
+              "See you later!",
+              "Goodbye ~"
+            ],
+            "responses": [
+              "See you later, thanks for visiting",
+              "Bye! Have a nice day",
+              "Bye! Come back again soon."
+            ]
+          },
+          {
+            "tag": "robbery",
+            "patterns": [
+              "Nobody move ! This is a robbery !",
+              "I got a gun !",
+              "I have a gun !",
+              "Just shut the fuck up and I ain't hurting no one.",
+              "Your money or ya life!!!"
+            ],
+            "responses": [
+              "AHHHHHHHH QAQQQQ",
+              "SOMEBODY CALL THE POLICE",
+              "Please don't shoot me please dont shoot me . QwQ ",
+              "You wouldn't want my life; 'tis dull as dishwater......"
+            ]
+          },
+          {
+            "tag": "complaint",
+            "patterns": [
+              "The service is so bad .",
+              "You're wasting my time .",
+              "It is taking too long .",
+              "The dish tastes a bit off .",
+              "I'm not very happy with the quality of the food here .",
+              "This food tastes very strange .",
+              "It's overdone ."
+            ],
+            "responses": [
+              "I assure you that it won't happen again .",
+              "We might have overlooked some points .",
+              "We're sorry about that ."
+            ]
+          },
+          {
+            "tag": "discount",
+            "patterns": [
+              "Is there a discount on buying more ?",
+              "Could you give me a discount ?",
+              "I'm your regular customer. Is there any discount ?"
+            ],
+            "responses": [
+              "You can enter 'recommended menu' to see the latest discounted items.",
+              "No, but you can check our special meals. Some of these are cheaper now!"
+            ]
+          },
+          {
+            "tag": "background_music",
+            "patterns": [
+              "Music !",
+              "Music please ?",
+              "Can you play some music ?",
+              "Turn it up to eleven !!!",
+              "DJ !"
+            ],
+            "responses": [
+              "Sure! https://reurl.cc/Wq11AL",
+              "Sure! https://reurl.cc/jRGG9q",
+              "Sure! https://reurl.cc/AyOylp",
+              "Sure! https://reurl.cc/58ppK6",
+              "Sure! https://reurl.cc/GXEXyp",
+              "Sure! https://reurl.cc/Wq11AL",
+              "Sure! https://reurl.cc/jRGG9q",
+              "Sure! https://reurl.cc/58ppK6",
+              "Sure! https://reurl.cc/jRGRlm",
+              "Sure! https://reurl.cc/X5VVOj",
+              "Sure! https://reurl.cc/7jppgD",
+              "Sure! https://reurl.cc/QWbWrp"
+            ]
+          }
+          ,
+          {
+            "tag": "appreciate",
+            "patterns": [
+              "What a goog meal ~",
+              "Foods taste good"
+            ],
+            "responses": [
+              "You're welcome",
+              "I'm glad you are happy",
+              "Thank you~"
+            ]
+          },
+          {
+            "tag": "sucker",
+            "patterns": [
+              "The food sucks !",
+              "I'll never come back here again!",
+              "I think you will close soon !",
+              "I think there is something wrong in your restaurant"
+            ],
+            "responses": [
+              "We will make up for this !",
+              "What's your fucking problem ?",
+              "I'm sorry about that !"
+            ]
+          },
+          {
+            "tag": "tips",
+            "patterns": [
+              "These tips are for you ~",
+              "Take the tips, you deserve it!",
+              "I like your service !"
+            ],
+            "responses": [
+              "Thank you ~",
+              "That is so kind of you ~"
+            ]
+          },
+          {
+            "tag": "temperature",
+            "patterns": [
+              "Air-condition is a bit cold",
+              "It is a little hot in here",
+              "It's too sultry in the house"
+            ],
+            "responses": [
+              "I will make you feel more comfortable",
+              "I will adjust the AC temperature",
+              "I will open the window"
+            ]
+          },
+          {
+            "tag": "wrong_meal",
+            "patterns": [
+              "The meal is wrong",
+              "I did not order it",
+              "This dishes are not mine"
+            ],
+            "responses": [
+              "Sorry, we will change it immediately",
+              "Sorry, we will check your bill" ,
+              "Sorry, we will give you the right dishes right now"
+            ]
+          },
+          {
+            "tag": "toilet_problem",
+            "patterns": [
+              "There's no toilet paper in the room",
+              "The flusher is broken and water is flooding everywhere",
+              "It's running out of soap !"
+            ],
+            "responses": [
+              "Ok, We will go and fix that problem",
+              "Sorry about that, but we are currently short handed",
+              "Maybe next time you should check the sign on the door before using it"
+            ]
+          },
+          {
+            "tag": "add_water",
+            "patterns": [
+              "Please help me add some water .",
+              "I need some water",
+              "My glass is empty, could you help me add some water ?" 
+            ],
+            "responses": [
+              "ok",
+              "No problem",
+              "Sure !"
+            ]
+          },
+          {
+            "tag": "taste_weird",
+            "patterns": [
+              "Excuse me, I think there is something wrong with the meal",
+              "Yuck, there is a cockroach on my spaghetti",
+              "I think the steak is raw",
+              "I think the fried rice is too salty",
+              "The roast chicken is overcooked ",
+              "The meal tastes sour",
+              "The meal smells strange" 
+            ],
+            "responses": [
+              "Sorry, I will give you a new one",
+              "We will improve next time"
+            ]
+          },
+          {
+            "tag": "tableware",
+            "patterns": [
+              "Could you give me a fork ?",
+              "Could you give me a spoon ?",
+              "Could you give me a knife ?",
+              "Could you give me a bowl ?",
+              "Could you give me a pair of chopsticks ?"
+            ],
+            "responses": [
+              "Ok, sure.",
+              "No problem.",
+              "Of course."
+            ]
+          },
+          {
+            "tag": "table_cleaning",
+            "patterns": [
+              "Would you please clean up the table ?",
+              "Would you please wipe the table ?",
+              "Could you please clean up the table ?",
+              "Could you wipe the table ?",
+              "Could you please wipe the table ?",
+              "Could you clean up the table ?"
+            ],
+            "responses": [
+              "Ok, sure.",
+              "No problem.",
+              "Of course."
+            ]
+          }
+
+
+        ]
+      }
